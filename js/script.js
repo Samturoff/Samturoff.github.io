@@ -3,17 +3,14 @@ function showNav() {
 $('#topnav').html(
 `
 <ul>
-	<li class="resources_link"><a href="resources.html">resources</a></li>
-	<li class="favorite_foods_link"><a href="#">link</a></li>
-	<li class="apple_link"><a href="#">link</a></li>
+	<li class="resources_link"><a href="resources.html">RESOURCES</a></li>
+	<li class="favorite_foods_link"><a href="#">STUFF</a></li>
+	<li class="apple_link"><a href="#">OTHER STUFF</a></li>
 </ul>
-`);
+`
+);
 }
 
-function addActiveClass() {
-	if($('body.favorite_foods_link')) {
-		$('.favorite_foods_link').addClass('active');
-} else if($('body.resources'))
 
 function initialize() {
 	showNav();

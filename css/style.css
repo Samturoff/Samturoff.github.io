@@ -3,16 +3,16 @@
 }
 
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FAEBD7 url('../images/art_nouveau_fire.jpg');
 	color: #333;
 }
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: #d6ebf0;
 }
 
-a:hover { color: Tomato; }
+a:hover { color: white; }
 
 header, nav, main, footer {
 	width: 80%;
@@ -22,35 +22,42 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: BlanchedAlmond;
+  	background-image: linear-gradient(#27383f, #151e25);
+	color: #749a9d;
 	min-height: 100px;
-	margin-top: 60px;
-	background-image: url("../images/stars.jpeg");
+	height: 10vh;
+
 }
 
 header h1 {
-	padding: 40px 60px;
-	font-size: 48px;
+	padding: 30px 60px;
+	font-size: 30px;
+	font-family: 'Orbitron', sans-serif;
 }
 
+h2{
+	font-family: 'Orbitron', sans-serif;
+	color: #edc34a;
+}
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-image: linear-gradient(#1f2e35, #385054); }
 nav ul { 
+	font-family: 'Lato', sans-serif;
 	display: flex;
 	justify-content: flex-end;
 }
-nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
+nav li { padding: 1vh 1vh; }
+nav a { 	color: #acacac;; }
 nav a:hover { color: white; }
 
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	background-color: rgba(23,34,40,.97);	
 	display: grid;
 	grid-template-columns: 60% 40%;
+	height: 81vh;
 }
 
 section {
@@ -58,6 +65,7 @@ section {
 }
 
 section ul, aside ul {
+	font-family: 'Lato', sans-serif;
 	list-style-type: square;
 	margin-top: 20px; 
 	margin-left: 30px;
@@ -70,8 +78,10 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
-	color: white;
-	text-align: center;
+	background-image: linear-gradient(#385054, #1f2e35);	color: white;
+	text-align: center;	
+	height: 5vh;
+
  }
- footer p { padding: 20px; }
+ footer p { padding: 15px; font-family: 'Lato', sans-serif; }
+
