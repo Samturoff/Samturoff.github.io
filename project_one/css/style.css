@@ -62,11 +62,10 @@ main {
 	grid-template-rows: repeat(20, 1fr);
 	display: grid;
 	background-color: black;
-	height: 160vh;
+	height: 80vh;
 }
 
 section {
-	padding: 40px 60px;
 }
 
 .text{
@@ -100,7 +99,7 @@ footer {
  }
 
 .btn_1_placement{
-	grid-row: 14 / 18;
+	grid-row: 15/ 19;
 	grid-column: 1 / 15;
     display: flex;
     justify-content: center;
@@ -108,7 +107,7 @@ footer {
 }
 
 .btn_2_placement{
-	grid-row: 17 / 21;
+	grid-row: 18 / 21;
 	grid-column: 1 / 15;
     display: flex;
     justify-content: center;
@@ -121,7 +120,7 @@ footer {
 	font-size: 1.5rem;
 	color: orange;
 	border: 10px solid #ffae00;
-	width: 800px;
+	width: 400px;
 	height: 100px;
 }
  
@@ -132,7 +131,7 @@ footer {
 	font-size: 1.5rem;
 	color: orange;
 	border: 10px solid #ffae00;
-	width: 800px;
+	width: 400px;
 	height: 100px;	
 }
 
