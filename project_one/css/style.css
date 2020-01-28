@@ -116,6 +116,7 @@ footer {
 
 }
 
+
 .line-1{
     position: relative;
     width: 600px;
@@ -135,6 +136,7 @@ footer {
 .anim-typewriter2{
   animation: typewriter 2s steps(43) 3s 1 normal both,
              blinkTextCursor 500ms steps(43) infinite normal;
+
 }
 
 .anim-typewriter3{
@@ -158,12 +160,11 @@ footer {
   to{border-right-color: transparent;}
 }
 
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 600px}
+
+
+.display_none_text{
+	display: none;
 }
-
-
 
 
 .screen_width{
