@@ -35,20 +35,64 @@ function playbutton2(){
 
 
 //-----------------------------------------------------------------
+var clicks = 0;
 
+setTimeout(function(){
+  tbb = $('#text_box_button');  
+  tbb.addClass('pointer'); 
+  tbb.addClass('border_clickable');      
+}, 4700);
 
 $(function(){
-  $('#text_box_button').click(function(){
-    i1 = $('#intro_1');
-    i2 = $('#intro_2');   
-        i1.addClass('display_none_text');
-        i2.addClass('display_none_text');
-    i3 = $('#intro_3');
-    i4 = $('#intro_4'); 
-        i3.removeClass('display_none_text')
-        i4.removeClass('display_none_text')
-        i3.addClass('line-1 anim-typewriter1')
-        i4.addClass('line-1 anim-typewriter2')
+  $('#text_box_button').click(function() {
+      if (clicks == 0){
+        tbb = $('#text_box_button');          
+        i1 = $('#intro_1');
+        i2 = $('#intro_2');
+            tbb.removeClass('pointer'); 
+            tbb.removeClass('border_clickable');                    
+            i1.addClass('display_none_text');
+            i2.addClass('display_none_text');
+        i3 = $('#intro_3');
+        i4 = $('#intro_4');
+        i5 = $('#intro_5'); 
 
+        setTimeout(function(){
+          tbb = $('#text_box_button');  
+          tbb.addClass('pointer'); 
+          tbb.addClass('border_clickable');         
+        }, 5000);
+
+        i3.removeClass('display_none_text');
+        i4.removeClass('display_none_text');
+        i5.removeClass('display_none_text');
+
+        i3.addClass('line-1 anim-typewriter3');
+        i4.addClass('line-1 anim-typewriter4');
+        i5.addClass('line-1 anim-typewriter5');
+      } else if(clicks == 1){
+        tbb.removeClass('pointer'); 
+        tbb.removeClass('border_clickable');        
+        i3.addClass('display_none_text');
+        i4.addClass('display_none_text');
+        i5.addClass('display_none_text');
+        i6 = $('#intro_6');
+        i7 = $('#intro_7');
+
+        setTimeout(function(){
+          tbb = $('#text_box_button');  
+          tbb.addClass('pointer'); 
+          tbb.addClass('border_clickable');         
+        }, 3000);
+
+        i6.removeClass('display_none_text');
+        i7.removeClass('display_none_text');
+        i6.addClass('line-1 anim-typewriter6');
+        i7.addClass('line-1 anim-typewriter7');
+      }
+      ++clicks;
   });
+
 });
+
+
