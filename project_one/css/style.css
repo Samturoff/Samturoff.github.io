@@ -5,7 +5,7 @@
 body {
 	background: white /*url('../images/art_nouveau_fire.jpg')*/;
 	color: #333;
-	height: 10000px;
+	height: 12000px;
 }
 
 a {
@@ -202,6 +202,7 @@ footer {
 }
 
 
+
 .screen_width{
 	min-width: 800px;
 	max-width: 1200px;	
@@ -286,6 +287,86 @@ footer {
 }
 
 .scene_3{
+	height: 100vh;
+	width: 100%;
+	background-color: red;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_4{
+	height: 100vh;
+	width: 100%;
+	background-color: green;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_5{
+	height: 100vh;
+	width: 100%;
+	background-color: red;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_6{
+	height: 100vh;
+	width: 100%;
+	background-color: green;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_7{
+	height: 100vh;
+	width: 100%;
+	background-color: red;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_8{
+	height: 100vh;
+	width: 100%;
+	background-color: green;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_9{
+	height: 100vh;
+	width: 100%;
+	background-color: red;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_10{
+	height: 100vh;
+	width: 100%;
+	background-color: green;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_11{
+	height: 100vh;
+	width: 100%;
+	background-color: red;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_12{
+	height: 100vh;
+	width: 100%;
+	background-color: green;
+	position: relative;
+	z-index:-1;
+}
+
+.scene_13{
 	height: 100vh;
 	width: 100%;
 	background-color: red;

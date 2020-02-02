@@ -3,10 +3,9 @@ $(function(){
 		e1 = $('.btn_1');
         e1.addClass('animate');
 		    button_audio1.play();
-        e1.one('',
-        function () {
-            e1.removeClass('animate');
-        });
+        setTimeout(function(){
+            e1.removeClass('animate');        
+        }, 500);
 	});
 });
 
@@ -15,10 +14,10 @@ $(function(){
     e2 = $('.btn_2');
         e2.addClass('animate');
         button_audio2.play();
-        e2.one('',
-        function () {
-            e2.removeClass('animate');
-        });
+        setTimeout(function(){
+            e2.removeClass('animate');        
+        }, 500);
+
   });
 });
 
@@ -90,6 +89,37 @@ $(function(){
         i6.addClass('line-1 anim-typewriter6');
         i7.addClass('line-1 anim-typewriter7');
       }
+
+      else if(clicks == 2){
+        tbb.removeClass('pointer'); 
+        tbb.removeClass('border_clickable');
+        $( ".text_box_placement" ).fadeOut( 2000, function() {
+        // Animation complete.
+        });
+
+        //scroll to scene 3        
+        setTimeout(function(){                
+          $('html,body').animate({
+          scrollTop: $(".scene_3").offset().top},
+          2000);
+        }, 300);
+
+        //pop in text box
+        setTimeout(function(){
+          i6.addClass('display_none_text');
+          i7.addClass('display_none_text');
+          tbb.removeClass('pointer'); 
+          tbb.removeClass('border_clickable');               
+          $( ".text_box_placement" ).fadeIn( 200, function() {
+          // Animation complete.
+          }); 
+        }, 2300);       
+      }
+        else if(clicks == 3){
+          
+        } 
+
+
       ++clicks;
   });
 
