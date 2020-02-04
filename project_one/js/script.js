@@ -119,9 +119,15 @@ $(function(){
         one_1_t = $('#1_1_text');
         one_2_t = $('#1_2_text');
             tbb.removeClass('pointer'); 
-            tbb.removeClass('border_clickable');                    
-            i1.addClass('display_none_text');
-            i2.addClass('display_none_text');          
+            tbb.removeClass('border_clickable');
+
+            i3.removeClass('display_none_text');
+            i4.removeClass('display_none_text');
+            i5.removeClass('display_none_text');
+
+            i3.addClass('line-1 anim-typewriter3');
+            i4.addClass('line-1 anim-typewriter4');
+            i5.addClass('line-1 anim-typewriter5');                     
         } 
 
 
