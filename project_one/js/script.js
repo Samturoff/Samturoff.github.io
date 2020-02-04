@@ -116,7 +116,12 @@ $(function(){
         }, 2300);       
       }
         else if(clicks == 3){
-          
+        one_1_t = $('#1_1_text');
+        one_2_t = $('#1_2_text');
+            tbb.removeClass('pointer'); 
+            tbb.removeClass('border_clickable');                    
+            i1.addClass('display_none_text');
+            i2.addClass('display_none_text');          
         } 
 
 
