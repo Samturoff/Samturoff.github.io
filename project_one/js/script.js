@@ -191,6 +191,26 @@ $(function()
             });            
           }, 5300);
 
+        else if(clicks == 3){
+        one_1_t = $('#1_1_text');
+        one_2_t = $('#1_2_text');
+        one_3_t = $('#1_3_text');
+        one_4_t = $('#1_4_text');        
+            tbb.removeClass('pointer'); 
+            tbb.removeClass('border_clickable');
+
+            one_1_t.removeClass('display_none_text');
+            one_2_t.removeClass('display_none_text');
+            one_3_t.removeClass('display_none_text');
+            one_4_t.removeClass('display_none_text');
+
+            one_1_t.addClass('line-1 anim-typewriter3');
+            one_2_t.addClass('line-1 anim-typewriter4');
+            one_3_t.addClass('line-1 anim-typewriter5');
+            one_4_t.addClass('line-1 anim-typewriter5');                     
+            
+        } 
+
           $(function()
           {
             $('#btn_animation').click(function(){

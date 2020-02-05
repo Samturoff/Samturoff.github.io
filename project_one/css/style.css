@@ -227,8 +227,28 @@ footer {
 
 .anim-typewriter_one_7_t{
   animation: typewriter 2s steps(43) 4.5s 1 normal both,
+
+
+.anim-typewriter_1_1_t{
+  animation: typewriter 2s steps(43) 2s .6 normal both,
              blinkTextCursor 500ms steps(43) infinite normal;
 }
+
+.anim-typewriter_1_2_t{
+  animation: typewriter 2s steps(43) 2s .6 normal both,
+             blinkTextCursor 500ms steps(43) infinite normal;
+}
+
+.anim-typewriter_1_3_t{
+  animation: typewriter 2s steps(43) 2s .6 normal both,
+             blinkTextCursor 500ms steps(43) infinite normal;
+}
+
+.anim-typewriter_1_4_t{
+  animation: typewriter 2s steps(43) 2s .6 normal both,
+             blinkTextCursor 500ms steps(43) infinite normal;
+}
+
 
 @keyframes typewriter{
   from{width: 0;}
