@@ -32,8 +32,8 @@ let f = 0;
 let g = 0;
 let h = 0;
 
-
-setTimeout(function(){
+setTimeout(function()
+{
   tbb = $('#text_box_button');  
   tbb.addClass('pointer'); 
   tbb.addClass('border_clickable');      
@@ -177,7 +177,6 @@ $(function()
           setTimeout(function()
           {
             tbb = $('#text_box_button');  
-            tbb.addClass('pointer'); 
             tbb.addClass('border_choice');         
           }, 5300);
 
@@ -191,31 +190,11 @@ $(function()
             });            
           }, 5300);
 
-        else if(clicks == 3){
-        one_1_t = $('#1_1_text');
-        one_2_t = $('#1_2_text');
-        one_3_t = $('#1_3_text');
-        one_4_t = $('#1_4_text');        
-            tbb.removeClass('pointer'); 
-            tbb.removeClass('border_clickable');
 
-            one_1_t.removeClass('display_none_text');
-            one_2_t.removeClass('display_none_text');
-            one_3_t.removeClass('display_none_text');
-            one_4_t.removeClass('display_none_text');
 
-            one_1_t.addClass('line-1 anim-typewriter3');
-            one_2_t.addClass('line-1 anim-typewriter4');
-            one_3_t.addClass('line-1 anim-typewriter5');
-            one_4_t.addClass('line-1 anim-typewriter5');                     
-            
-        } 
-
-          $(function()
-          {
-            $('#btn_animation').click(function(){
+            $('#btn_animation').click(function a(){
               ++x;
-              ++a;              
+              var poem_choice_one = 1;
               e1 = $('.btn_1');
               e1.addClass('animate');
               button_audio1.play();
@@ -237,16 +216,17 @@ $(function()
                 $( ".btn_2_placement" ).fadeOut( 200, function() {
                 // Animation complete.
                 });            
-              }, 500);                  
+              }, 500);
+              return poem_choice_one;                  
             });
-          });
 
-          $(function()
-          {
+
+
+
             $('#btn_animation2').click(function()
             {
               ++y;
-              ++b;
+              var poem_choice_two = 1;
               e2 = $('.btn_2');
               e2.addClass('animate');
               button_audio2.play();
@@ -262,9 +242,57 @@ $(function()
                 $( ".btn_2_placement" ).fadeOut( 200, function() {
                 // Animation complete.
                 });            
-              }, 500);              
+              }, 500);
+              return poem_choice_two;              
             });
-          });
+
+
+            switch(poem_choice_one) 
+          {
+           case 1:
+                    //Variable Defining          
+                    one_8_t = $('#1_8_text');
+                    one_9_t = $('#1_9_text');
+                    one_10_t = $('#1_10_text');
+                    one_11_t = $('#1_11_text');
+                    one_12_t = $('#1_12_text');
+                    one_13_t = $('#1_13_text');
+                    one_14_t = $('#1_14_text');
+                    
+                    //Unclick textbox
+                    tbb.removeClass('border_choice');
+
+                    //Make text displayable
+                    one_8_t.removeClass('display_none_text');
+                    one_9_t.removeClass('display_none_text');
+
+                    //Add class
+                    one_5_t.addClass('display_none_text');
+                    one_6_t.addClass('display_none_text');
+                    one_7_t.addClass('display_none_text');
+
+                    one_8_t.addClass('line-1 anim-typewriter_one_8_t');
+                    one_9_t.addClass('line-1 anim-typewriter_one_9_t');
+
+                    //Make text box choice
+                    setTimeout(function()
+                    {
+                      tbb = $('#text_box_button');  
+                      tbb.addClass('pointer'); 
+                      tbb.addClass('border_choice');         
+                    }, 5300);
+            break;
+           case 2:
+            //execute code block 2
+            break;
+           default:
+           // code to be executed if n is different from case 1 and 2
+          };
+
+
+
+
+
         }
       ++clicks;
   });
@@ -273,7 +301,47 @@ $(function()
 
 $(function()
 {
+  switch(poem_choice) 
+{
+ case 1:
+          //Variable Defining          
+          one_8_t = $('#1_8_text');
+          one_9_t = $('#1_9_text');
+          one_10_t = $('#1_10_text');
+          one_11_t = $('#1_11_text');
+          one_12_t = $('#1_12_text');
+          one_13_t = $('#1_13_text');
+          one_14_t = $('#1_14_text');
+          
+          //Unclick textbox
+          tbb.removeClass('border_choice');
 
+          //Make text displayable
+          one_8_t.removeClass('display_none_text');
+          one_9_t.removeClass('display_none_text');
+
+          //Add class
+          one_5_t.addClass('display_none_text');
+          one_6_t.addClass('display_none_text');
+          one_7_t.addClass('display_none_text');
+
+          one_8_t.addClass('line-1 anim-typewriter_one_8_t');
+          one_9_t.addClass('line-1 anim-typewriter_one_9_t');
+
+          //Make text box choice
+          setTimeout(function()
+          {
+            tbb = $('#text_box_button');  
+            tbb.addClass('pointer'); 
+            tbb.addClass('border_choice');         
+          }, 5300);
+  break;
+ case 2:
+  //execute code block 2
+  break;
+ default:
+ // code to be executed if n is different from case 1 and 2
+}   
 });
 
 
