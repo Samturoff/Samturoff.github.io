@@ -1467,17 +1467,77 @@ function switcheroo2()
 
     case 4:
             //Variable Defining          
-            one_15_t = $('#1_15_text');
-            one_16_t = $('#1_16_text');
-            one_17_t = $('#1_17_text');
-            one_18_t = $('#1_18_text');
-            one_19_t = $('#1_19_text');
-            one_20_t = $('#1_20_text');
-            one_21_t = $('#1_21_text');
-            one_22_t = $('#1_22_text');
-            one_23_t = $('#1_23_text');
-            one_24_t = $('#1_24_text');
-            one_24_1_t = $('#1_24_1_text');
+            five_1_t = $('#5_1_text');
+            five_2_t = $('#5_2_text');
+            five_3_t = $('#5_3_text');
+            five_4_t = $('#5_4_text');
+            five_5_t = $('#5_5_text');
+            five_6_t = $('#5_6_text');
+            five_7_t = $('#5_7_text');
+            five_8_t = $('#5_8_text');
+            five_9_t = $('#5_9_text');
+            five_10_t = $('#5_10_text');
+            five_11_t = $('#5_11_text');
+            five_12_t = $('#5_12_text');
+            five_13_t = $('#5_13_text');
+            five_14_t = $('#5_14_text');
+            five_15_t = $('#5_15_text');
+            five_16_t = $('#5_16_text');
+            five_17_t = $('#5_17_text');
+            five_18_t = $('#5_18_text');
+            five_19_t = $('#5_19_text');
+            five_20_t = $('#5_20_text');
+            five_21_t = $('#5_21_text');
+            five_22_t = $('#5_22_text');
+            five_23_t = $('#5_23_text');
+            five_24_t = $('#5_24_text');
+            five_25_t = $('#5_25_text');
+            five_26_t = $('#5_26_text');
+            five_27_t = $('#5_27_text');
+            five_28_t = $('#5_28_text');
+            five_29_t = $('#5_29_text');
+            five_30_t = $('#5_30_text');
+            five_31_t = $('#5_31_text');
+            five_32_t = $('#5_32_text');
+            five_33_t = $('#5_33_text');
+            five_34_t = $('#5_34_text');
+            five_35_t = $('#5_35_text');
+
+            six_1_t = $('#6_1_text');
+            six_2_t = $('#6_2_text');
+            six_3_t = $('#6_3_text');
+            six_4_t = $('#6_4_text');
+            six_5_t = $('#6_5_text');
+            six_6_t = $('#6_6_text');
+            six_7_t = $('#6_7_text');
+            six_8_t = $('#6_8_text');
+            six_9_t = $('#6_9_text');
+            six_10_t = $('#6_10_text');
+            six_11_t = $('#6_11_text');
+            six_12_t = $('#6_12_text');
+            six_13_t = $('#6_13_text');
+            six_14_t = $('#6_14_text');
+            six_15_t = $('#6_15_text');
+            six_16_t = $('#6_16_text');
+            six_17_t = $('#6_17_text');
+            six_18_t = $('#6_18_text');
+            six_19_t = $('#6_19_text');
+            six_20_t = $('#6_20_text');
+            six_21_t = $('#6_21_text');
+            six_22_t = $('#6_22_text');
+            six_23_t = $('#6_23_text');
+            six_24_t = $('#6_24_text');
+            six_25_t = $('#6_25_text');
+            six_26_t = $('#6_26_text');
+            six_27_t = $('#6_27_text');
+            six_28_t = $('#6_28_text');
+            six_29_t = $('#6_29_text');
+            six_30_t = $('#6_30_text');
+            six_31_t = $('#6_31_text');
+            six_32_t = $('#6_32_text');
+            six_33_t = $('#6_33_text');
+
+
 
             //Unclick textbox
             tbb.removeClass('border_choice');

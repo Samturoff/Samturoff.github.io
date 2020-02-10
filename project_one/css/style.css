@@ -3,7 +3,7 @@
 }
 
 body {
-	background: white /*url('../images/art_nouveau_fire.jpg')*/;
+	background: black; /*url('../images/art_nouveau_fire.jpg')*/;
 	color: #333;
 	height: 12000px;
 }
@@ -30,7 +30,6 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-  	background-color: blue;
 	color: #749a9d;
 	min-height: 100px;
 	height: 10vh;
@@ -104,7 +103,6 @@ aside {
 footer { 
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(4, 1fr);	
-	background-color: blue;
 	display: grid;	
 	height: 10vh;
  }
@@ -698,7 +696,6 @@ position: absolute;
 .scene_1{
 	height: 100vh;
 	width: 100%;
-	background-color: red;
 	position: relative;
 	z-index:-1;
 }
@@ -706,7 +703,6 @@ position: absolute;
 .scene_2{
 	height: 100vh;
 	width: 100%;
-	background-color: green;
 	position: relative;
 	z-index:-1;
 }
@@ -714,7 +710,6 @@ position: absolute;
 .scene_3{
 	height: 100vh;
 	width: 100%;
-	background-color: red;
 	position: relative;
 	z-index:-1;
 }
@@ -722,7 +717,6 @@ position: absolute;
 .scene_4{
 	height: 100vh;
 	width: 100%;
-	background-color: green;
 	position: relative;
 	z-index:-1;
 }
@@ -730,7 +724,6 @@ position: absolute;
 .scene_5{
 	height: 100vh;
 	width: 100%;
-	background-color: red;
 	position: relative;
 	z-index:-1;
 }
@@ -738,7 +731,6 @@ position: absolute;
 .scene_6{
 	height: 100vh;
 	width: 100%;
-	background-color: green;
 	position: relative;
 	z-index:-1;
 }
@@ -746,7 +738,6 @@ position: absolute;
 .scene_7{
 	height: 100vh;
 	width: 100%;
-	background-color: red;
 	position: relative;
 	z-index:-1;
 }
@@ -754,7 +745,6 @@ position: absolute;
 .scene_8{
 	height: 100vh;
 	width: 100%;
-	background-color: green;
 	position: relative;
 	z-index:-1;
 }
@@ -762,7 +752,6 @@ position: absolute;
 .scene_9{
 	height: 100vh;
 	width: 100%;
-	background-color: red;
 	position: relative;
 	z-index:-1;
 }
@@ -770,7 +759,6 @@ position: absolute;
 .scene_10{
 	height: 100vh;
 	width: 100%;
-	background-color: green;
 	position: relative;
 	z-index:-1;
 }
@@ -778,7 +766,6 @@ position: absolute;
 .scene_11{
 	height: 100vh;
 	width: 100%;
-	background-color: red;
 	position: relative;
 	z-index:-1;
 }
@@ -786,7 +773,6 @@ position: absolute;
 .scene_12{
 	height: 100vh;
 	width: 100%;
-	background-color: green;
 	position: relative;
 	z-index:-1;
 }
@@ -794,7 +780,6 @@ position: absolute;
 .scene_13{
 	height: 100vh;
 	width: 100%;
-	background-color: red;
 	position: relative;
 	z-index:-1;
 }
