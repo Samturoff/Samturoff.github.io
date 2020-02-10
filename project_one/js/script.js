@@ -678,7 +678,7 @@ function continueSceneFour(){
         {
           tbb = $('#text_box_button');  
           tbb.addClass('pointer'); 
-          tbb.addClass('border_choice');
+          tbb.addClass('border_clickable');
         }, 100);
         //5300
         four_25_t.removeClass('display_none_text');
@@ -699,7 +699,7 @@ function continueSceneFour(){
         {
           tbb = $('#text_box_button');  
           tbb.addClass('pointer'); 
-          tbb.addClass('border_clickable');
+          tbb.addClass('border_choice');
         }, 100);
         //5300
         setTimeout(function(){                
@@ -735,13 +735,13 @@ function continueSceneFour(){
           $( "#btn_2_2" ).fadeIn( 200, function() {
           // Animation complete.
           });                       
-        }, 5300);
+        }, 400);
 
 
 
           $('#btn_animation').click(function()
           {
-            x = 1;
+            x = 3;
             poem_choice_two();
             e1 = $('.btn_1');
             e1.addClass('animate');
@@ -772,7 +772,7 @@ function continueSceneFour(){
 
           $('#btn_animation2').click(function()
           {
-            x = 2;
+            x = 4;
             poem_choice_two();
             e2 = $('.btn_2');
             e2.addClass('animate');
@@ -1343,8 +1343,310 @@ function switcheroo1()
    default:
    // code to be executed if n is different from case 1 and 2
   };
+}
+
+
+function switcheroo2()
+{
+    switch(poem_choice_one()) 
+  {
+   case 3:
+            //Variable Defining          
+            one_8_t = $('#1_8_text');
+            one_9_t = $('#1_9_text');
+            one_10_t = $('#1_10_text');
+            one_11_t = $('#1_11_text');
+            one_12_t = $('#1_12_text');
+            one_13_t = $('#1_13_text');
+            one_14_t = $('#1_14_text');
+            one_14_1_t = $('#1_14_1_text');
+            
+            //Unclick textbox
+            tbb.removeClass('border_choice');
+            tbb.addClass('border_song');
+
+            //Make text displayable
+            one_8_t.removeClass('display_none_text');
+            one_9_t.removeClass('display_none_text');
+
+            //Add class
+            one_5_t.addClass('display_none_text');
+            one_6_t.addClass('display_none_text');
+            one_7_t.addClass('display_none_text');
+
+            one_8_t.addClass('line-1 anim-typewriter_one_8_t');
+            one_9_t.addClass('line-1 anim-typewriter_one_9_t');
+
+            //Make text box choice
+            setTimeout(function()
+            {
+              $(one_8_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_9_t).fadeOut( 400, function() {
+              // Animation complete.
+              });                        
+            }, 4000);
+
+            setTimeout(function()
+            {
+              one_10_t.removeClass('display_none_text');
+              one_11_t.removeClass('display_none_text');
+
+              //Add class
+              one_8_t.addClass('display_none_text');
+              one_9_t.addClass('display_none_text');
+
+              one_10_t.addClass('line-1 anim-typewriter_one_10_t');
+              one_11_t.addClass('line-1 anim-typewriter_one_11_t');
+            }, 4500);
+
+            setTimeout(function()
+            {
+              $(one_10_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_11_t).fadeOut( 400, function() {
+              // Animation complete.
+              });    
+            }, 8000);
+
+        setTimeout(function()
+            {
+              one_12_t.removeClass('display_none_text');
+              one_13_t.removeClass('display_none_text');
+              one_14_t.removeClass('display_none_text');
+
+              //Add class
+              one_10_t.addClass('display_none_text');
+              one_11_t.addClass('display_none_text');
+
+              one_12_t.addClass('line-1 anim-typewriter_one_12_t');
+              one_13_t.addClass('line-1 anim-typewriter_one_13_t');
+              one_14_t.addClass('line-1 anim-typewriter_one_14_t');                      
+            }, 8600);
+
+            setTimeout(function()
+            {
+              $(one_10_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_11_t).fadeOut( 400, function() {
+              // Animation complete.
+              });    
+            }, 8000);
+
+        setTimeout(function()
+            {
+              one_14_1_t.removeClass('display_none_text');
+              one_14_1_t.addClass('line-1 anim-typewriter_one_12_t');                     
+            }, 15500);
+
+            setTimeout(function()
+            {
+              $(one_12_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_13_t).fadeOut( 400, function() {
+              // Animation complete.
+              }); 
+              $(one_14_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+            }, 15500);
+
+            setTimeout(function()
+                {
+                  tbb.removeClass('border_song');                      
+                  tbb.addClass('border_clickable');
+                  tbb.addClass('pointer');
+                  continueOne();
+                }, 16000);            
+           
+    break;
+
+    case 4:
+            //Variable Defining          
+            one_15_t = $('#1_15_text');
+            one_16_t = $('#1_16_text');
+            one_17_t = $('#1_17_text');
+            one_18_t = $('#1_18_text');
+            one_19_t = $('#1_19_text');
+            one_20_t = $('#1_20_text');
+            one_21_t = $('#1_21_text');
+            one_22_t = $('#1_22_text');
+            one_23_t = $('#1_23_text');
+            one_24_t = $('#1_24_text');
+            one_24_1_t = $('#1_24_1_text');
+
+            //Unclick textbox
+            tbb.removeClass('border_choice');
+            tbb.addClass('border_song');
+
+            //Make text displayable
+            one_15_t.removeClass('display_none_text');
+            one_16_t.removeClass('display_none_text');
+            one_17_t.removeClass('display_none_text');
+
+            //Add class
+            one_5_t.addClass('display_none_text');
+            one_6_t.addClass('display_none_text');
+            one_7_t.addClass('display_none_text');
+
+            one_15_t.addClass('line-1 anim-typewriter_one_15_t');
+            one_16_t.addClass('line-1 anim-typewriter_one_16_t');
+            one_17_t.addClass('line-1 anim-typewriter_one_17_t');
+
+            //Make text box choice
+            setTimeout(function()
+            {
+              $(one_15_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_16_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_17_t).fadeOut( 400, function() {
+              // Animation complete.
+              });                  
+            }, 6500);
+
+
+            setTimeout(function()
+            {
+              one_18_t.removeClass('display_none_text');
+              one_19_t.removeClass('display_none_text');
+
+              //Add class
+              one_15_t.addClass('display_none_text');
+              one_16_t.addClass('display_none_text');
+              one_17_t.addClass('display_none_text');
+
+              one_18_t.addClass('line-1 anim-typewriter_one_18_t');
+              one_19_t.addClass('line-1 anim-typewriter_one_19_t');
+            }, 7200);
+
+            setTimeout(function()
+            {
+              $(one_18_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_19_t).fadeOut( 400, function() {
+              // Animation complete.
+              });    
+            }, 11500);
+
+            setTimeout(function()
+            {
+              one_20_t.removeClass('display_none_text');
+              one_21_t.removeClass('display_none_text');
+
+              //Add class
+              one_15_t.addClass('display_none_text');
+              one_16_t.addClass('display_none_text');
+              one_17_t.addClass('display_none_text');
+
+              one_20_t.addClass('line-1 anim-typewriter_one_20_t');
+              one_21_t.addClass('line-1 anim-typewriter_one_21_t');
+            }, 12000);
+
+            setTimeout(function()
+            {
+              $(one_20_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_21_t).fadeOut( 400, function() {
+              // Animation complete.
+              });    
+            }, 16500);
+
+            setTimeout(function()
+            {
+              one_22_t.removeClass('display_none_text');
+              one_23_t.removeClass('display_none_text');
+              one_24_t.removeClass('display_none_text');
+
+              //Add class
+              one_20_t.addClass('display_none_text');
+              one_21_t.addClass('display_none_text');
+
+              one_22_t.addClass('line-1 anim-typewriter_one_22_t');
+              one_23_t.addClass('line-1 anim-typewriter_one_23_t');
+              one_24_t.addClass('line-1 anim-typewriter_one_24_t');
+            }, 17200);
+
+            setTimeout(function()
+            {
+              $(one_22_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_23_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_24_t).fadeOut( 400, function() {
+              // Animation complete.              
+              });    
+            }, 24500);
+
+            setTimeout(function()
+            {
+              one_22_t.removeClass('display_none_text');
+              one_23_t.removeClass('display_none_text');
+              one_24_t.removeClass('display_none_text');
+
+              //Add class
+              one_20_t.addClass('display_none_text');
+              one_21_t.addClass('display_none_text');
+
+              one_22_t.addClass('line-1 anim-typewriter_one_22_t');
+              one_23_t.addClass('line-1 anim-typewriter_one_23_t');
+              one_24_t.addClass('line-1 anim-typewriter_one_24_t');
+            }, 17200);            
+
+            setTimeout(function()
+            {
+              $(one_22_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_23_t).fadeOut( 400, function() {
+              // Animation complete.
+              });
+              $(one_24_t).fadeOut( 400, function() {
+              // Animation complete.              
+              });    
+            }, 24000);
+
+            setTimeout(function()
+            {
+              one_24_1_t.removeClass('display_none_text');              
+              one_24_1_t.addClass('line-1 anim-typewriter_one_24_1_t');              
+            }, 24500); 
+
+            setTimeout(function()
+            {
+              tbb.removeClass('border_song');                      
+              tbb.addClass('border_clickable');
+              tbb.addClass('pointer');
+              continueTwo();              
+            }, 25700);  
+          
+    break;
+   default:
+   // code to be executed if n is different from case 1 and 2
+  };
+
+  
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
