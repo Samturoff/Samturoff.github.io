@@ -1704,7 +1704,7 @@ function switcheroo2()
             nine_100_t = $('#9_100_text');
             nine_101_t = $('#9_101_text');
             nine_102_t = $('#9_102_text');
-            nine_103_t = $('#9_203_text');
+            nine_103_t = $('#9_103_text');
             //Unclick textbox
             tbb.removeClass('border_choice');
             tbb.addClass('border_song');
